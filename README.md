@@ -1,10 +1,13 @@
-# Kubernetes The Hard Way
+# Kubernetes The (Pi) Hard Way
 
 This tutorial walks you through setting up Kubernetes the hard way. This guide is not for people looking for a fully automated command to bring up a Kubernetes cluster. If that's you then check out [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine), or the [Getting Started Guides](https://kubernetes.io/docs/setup).
 
 Kubernetes The Hard Way is optimized for learning, which means taking the long route to ensure you understand each task required to bootstrap a Kubernetes cluster.
 
 > The results of this tutorial should not be viewed as production ready, and may receive limited support from the community, but don't let that stop you from learning!
+
+# RPI
+The original Kubernetes the Hard Way makes use of the Google Cloud Platform.  I'm going to try and convert this to use my spare Raspberry Pi's and Nvidia Jetson Nano.  If you're looking for the original with  [Google Cloud Platform](https://cloud.google.com) take a look at [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 
 ## Copyright
 
@@ -27,7 +30,7 @@ Kubernetes The Hard Way guides you through bootstrapping a highly available Kube
 
 ## Labs
 
-This tutorial assumes you have access to the [Google Cloud Platform](https://cloud.google.com). While GCP is used for basic infrastructure requirements the lessons learned in this tutorial can be applied to other platforms.
+This tutorial assumes you have access to a fat stack of [Raspberry Pis](https://www.raspberrypi.org/), [Nvidia Jetsons](https://developer.nvidia.com/embedded/jetson-nano-developer-kit), or a bunch of old laptops running linux.
 
 * [Prerequisites](docs/01-prerequisites.md)
 * [Installing the Client Tools](docs/02-client-tools.md)
